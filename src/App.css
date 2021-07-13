@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.game{
+  width: 60rem;
+  background-color: rgb(248, 248, 248);
+}
+
+
+.category{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+.cards{
+  margin: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(224, 224, 224);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: linear-gradient(360deg, #f1f3f2 30%, #fff 30%); 
+}
+.sorting{
+  margin: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.table_types{
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  background-color: rgb(248, 228, 229);
+  border: none;
+  color: rgb(78, 69, 74);
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.table_types_clicked{
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  background-color: rgb(210, 116, 114);
+  border: none;
+  color: rgb(236, 233, 235);
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+
+.play{
+  padding: 1.5rem 3rem;
+  font-size: 1.7rem;
+  background-color: rgb(210, 116, 114);
+  border: none;
+  color: rgb(236, 233, 235);
+  font-weight: 400;
+  border-radius: 5px;
+  box-shadow: 1px 3px #f3f3f3;
+}
+.betValue{
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(95, 94, 94);
+}
+
+
+.card_white{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+.card_grey{
+  text-align: right;
+  padding: 2rem 2rem 1rem 0rem;
+  font-size: 1.3rem;
+  color: rgb(94, 92, 92);
+}
+
+
+.matches{
+  margin-left: auto;
+  color: rgb(192, 113, 113);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.greater{
+  height: 2rem;
+  margin-left: 1rem;
+}
+.money_clicked{
+  margin-left: 1rem;
+  border: 2px solid #adadad;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 0.3rem;
+  background-color: white;
+}
+
+.money{
+  background-color: rgb(236, 236, 236);
+  margin-left: 1rem;
+  border: 2px solid #adadad;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 0.3rem;
+  
+}
+
+.rup_betValue{
+  width: 1rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+.money2{
+  
+  height: 2rem;
+  margin-right: 1rem;
+}
+.arrow{
+  height: 2rem;
+  margin-left: -1rem;
+}
+.two{
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #adadad;
+  background-color: white;
+  padding: 0rem 1.5rem;
+  border: none;
+}
+.two_clicked{
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(210, 116, 114);
+  padding: 0rem 1.5rem;
+  border: none;
+}
+.people{
+  width: 30px;
+  height: 40px;
+  margin-left: 0.5rem;
+  
+}
+
+.group{
+  display: flex;
+  border:3px solid rgb(210, 116, 114);
+  border-radius: 5px;
+}
+
+.card_group{
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #adadad;
+  background-color: white;
+  padding: 0.1rem 1.5rem;
+  border: 2.4px solid #adadad ;
+  border-radius:5px ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
